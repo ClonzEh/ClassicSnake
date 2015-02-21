@@ -1,0 +1,307 @@
+body {
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.background {
+
+    background-color: dimgray;
+    width: 100%;
+    height: 100%;
+    min-width: 400px;
+    min-height:400px;
+}
+
+.wrapper {
+
+    background-color: dimgray;
+    border: 1px lightgray;
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
+    min-width: 400px;
+    min-height:400px;
+}
+
+.minwindow{
+
+    border: solid 1px black;
+}
+
+.mintitle_bar{
+    background: rgb(30, 30, 30);
+    height: 25px;
+    width: 100%;
+    border:solid 1px black;
+    color: white;
+    text-align: center;
+}
+.minbutton{
+    border:solid 1px;
+    width: 25px;
+    height: 23px;
+    float:right;
+    text-align: center;
+    cursor:pointer;
+    z-index: 10;
+
+}
+.minbox{
+
+    border:solid 1px black;
+}
+
+
+.cOH {
+
+    display: block;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+.cOV {
+
+    display: table-cell;
+    width: inherit;
+    height: inherit;
+    vertical-align: middle;
+}
+
+.cO {
+
+    display: table-cell;
+
+    position: absolute;
+    vertical-align:middle;
+}
+
+.splitter {
+
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    visibility: hidden;
+}
+
+.splittershow {
+
+
+    z-index: 100;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+
+.test {background:#ffffff; line-height:52px; margin:8px auto; width:359px;
+    position:relative; text-align:center; font-weight:bold; color:yellow}
+.test::before {display:inline-block; background:#ffffff; content:'';
+    position:absolute; top:4px; left:-4px; bottom:4px; width:4px;}
+.test::after {display:inline-block; background:#ffffff; content:'';
+    position:absolute; top:4px; right:-4px; bottom:4px; width:4px;}
+
+/*input:focus { font-size: 16px!important}*/
+
+
+
+table, td, th {
+    border: 1px solid gray;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+tr{
+    background-color: rgb(120,120,120);
+    color: black;
+
+}
+caption{
+    background-color: black;
+    color: wheat;
+    border: 1px solid gray;
+}
+
+
+.back {
+	-moz-box-shadow:inset 0px 17px 0px -7.5px #b54b3a;
+	-webkit-box-shadow:inset 0px 17px 0px -7.5px #b54b3a;
+	box-shadow:inset 0px 17px 0px -7.5px #b54b3a;
+	background-color:#a73f2d;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:2px 5px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #7a2a1d;
+}
+.back:hover { background-color:#b34332; }
+
+.go {
+	-moz-box-shadow:inset 0px 17px 0px -7.5px #14990a;;
+	-webkit-box-shadow:inset 0px 17px 0px -7.5px #14990a;;
+	box-shadow:inset 0px 17px 0px -7.5px #14990a;;
+	background-color:#117909;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:2px 5px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #7a2a1d;
+}
+.go:hover { background-color:#15990a; }
+
+
+.importantText { 
+    background: white; 
+    border: 1px solid black;
+    border-radius: 3px; 
+    box-shadow: 0 0 6px 3px rgba(0,250,25,0.45);
+    color: black;
+    outline: none; 
+    height:15px; 
+    width: 150px; 
+	
+}
+
+.borderPlayer {
+    background: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 0 0 36px 18px rgba(0,250,25,0.45);
+    color: black;
+    outline: none;
+    height:15px;
+    width: 150px;
+
+}
+
+ .input {
+
+     -moz-border-radius-topright: 30px;
+     -webkit-border-top-right-radius: 30px;
+     border-top-right-radius: 30px;
+     -moz-border-radius-bottomright: 30px;
+     -webkit-border-bottom-right-radius: 30px;
+     border-bottom-right-radius: 30px;
+     border: 1px solid #848484;
+     outline:0;
+
+     -moz-box-shadow:    inset 0 0 3px white;
+     -webkit-box-shadow: inset 0 0 3px white;
+     box-shadow:         inset 0 0 3px white;
+
+     padding-right:10px;
+ }
+
+.row {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.fullw { width: 100%; }
+.fullh { height: 100%; }
+.fullwh { width: 100%; height: 100%; }
+
+.left { float: left; }
+.right { float: right; }
+
+.cOH { display: block; position: relative; margin: 0 auto 0 auto; } /*centerOnHorizontal*/
+.cOV { display: table-cell; width: inherit; height: inherit; vertical-align: middle; } /*centerOnVertical*/
+
+
+#title { color: white; font-size: 30px; width: 200px; height: 100px; text-align: center;}
+
+.layout { visibility: hidden; position: absolute; }
+.block { position: absolute; }
+
+
+input.switch:empty {
+
+    visibility: hidden;
+}
+
+input.switch:empty ~ label {
+
+    position: relative;
+    float: left;
+    line-height: 1.6em;
+    color: #8c8c9c;
+    text-indent: 4em;
+    margin: 0.2em 0;
+    cursor: pointer;
+    min-width: 160px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input.switch:empty ~ label:before,
+input.switch:empty ~ label:after {
+
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+    width: 3.6em;
+    background-color: #393;
+    border-radius: 0.3em;
+    box-shadow: inset 0 0.2em 0 rgba(0,0,0,0.3);
+/*    -webkit-transition: all 0ms ease-in;
+    transition: all 0 ease-in;*/
+}
+
+input.switch:empty ~ label:after {
+
+    width: 1.4em;
+    top: 0.1em;
+    bottom: 0.1em;
+    margin-left: 2.1em;
+    background-color: #fff;
+    border-radius: 0.15em;
+    box-shadow: inset 0 -0.2em 0 rgba(0,0,0,0.2);
+}
+
+input.switch:checked ~ label:before {
+
+    background-color: #c33;
+}
+
+input.switch:checked ~ label:after {
+
+    margin-left: 0.1em;
+}
+
+.interfaceSwitches {
+
+    display: inline-block;
+}
